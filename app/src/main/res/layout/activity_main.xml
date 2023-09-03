@@ -1,0 +1,62 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: " />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: " />
+
+    <TextView
+        android:id="@+id/txtStartDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Date: " />
+
+    <TextView
+        android:id="@+id/txtEndDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End Date: " />
+
+    <TextView
+        android:id="@+id/txtODI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ODIs: " />
+
+    <TextView
+        android:id="@+id/txtT20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="T20s: " />
+
+    <TextView
+        android:id="@+id/txtTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tests: " />
+
+    <TextView
+        android:id="@+id/txtSquads"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Squads: " />
+
+    <TextView
+        android:id="@+id/txtMatches"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matches: " />
+
+</LinearLayout>
